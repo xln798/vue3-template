@@ -1,0 +1,38 @@
+{
+    "extends": "stylelint-config-standard",
+    "rules": {
+      "value-no-vendor-prefix":null,
+      "declaration-colon-space-after": "always",
+      "declaration-colon-space-before": "never",
+      "declaration-block-semicolon-newline-after": "always-multi-line",
+      "declaration-block-trailing-semicolon": "always",
+      "indentation": [2, { "baseIndentLevel": 1 }],
+      "block-opening-brace-newline-after": "always-multi-line",
+      "block-opening-brace-newline-before": "never-single-line",
+      "block-opening-brace-space-after": "always-single-line",
+      "block-opening-brace-space-before": "always",
+      "block-closing-brace-empty-line-before": "never",
+      "block-closing-brace-newline-after": "always",
+      "block-closing-brace-newline-before": "always-multi-line",
+      "block-closing-brace-space-before": "always-single-line",
+      "max-nesting-depth": 4,
+      "no-descending-specificity": null,
+      "property-no-unknown": [
+        true,
+        {
+          "ignoreProperties": [
+            "user-drag",
+            "font-smooth"
+          ]
+        }
+      ],
+      "selector-pseudo-element-no-unknown": [
+        true,
+        {
+          "ignorePseudoElements": [
+            "v-deep"
+          ]
+        }
+      ]
+    }
+  }
